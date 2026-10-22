@@ -43,7 +43,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/MnemosyneOS/mnemosyne-dsh",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "2786b8510eb713cca1b4f4c7a8bb621a7dac565b"
           },
           "engines": {
             "dsh": ">=0.2.0"
