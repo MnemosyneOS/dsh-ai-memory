@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "title": "Mnemosyne Plugins",
+  "description": {
+    "en": "Mnemosyne OS memory plugins for DeepSeek Harness",
+    "zh": "Mnemosyne OS 记忆插件，用于 DeepSeek Harness"
+  },
+  "metadata": {
+    "categories": {
+      "memory": { "title": { "en": "Memory", "zh": "记忆" } }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-ai-memory",
+      "title": {
+        "en": "Mnemosyne OS memory for DeepSeek Harness",
+        "zh": "Mnemosyne OS 记忆能力 for DeepSeek Harness"
+      },
+      "description": {
+        "en": "Mnemosyne OS 8.1.0 memory for DeepSeek Harness: auto-register, auto-remember, auto-recall. One command plus one browser click.",
+        "zh": "Mnemosyne OS 8.1.0 记忆能力 × DeepSeek Harness：自动注册、自动记忆、自动召回。一条命令加浏览器点一次。"
+      },
+      "keywords": ["dsh-plugin", "deepseek-harness", "mcp", "memory", "mnemosyne", "ai-memory"],
+      "license": "MIT",
+      "author": "MnemosyneOS",
+      "homepage": "https://ai-memory.net",
+      "repository": {
+        "url": "https://github.com/MnemosyneOS/mnemosyne-dsh"
+      },
+      "metadata": {
+        "category": "memory",
+        "keywords": ["dsh-plugin", "deepseek-harness", "mcp", "memory"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1761033600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MnemosyneOS/mnemosyne-dsh",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

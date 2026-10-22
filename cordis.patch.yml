@@ -1,0 +1,15 @@
+# dsh-ai-memory · bundle 补丁层
+#
+# 这里刻意是**空的顶层数组**，不是漏写。原因：
+#   bundle 的 patch.yml 与用户 profile 的 cordis.patch.yml 用的是同一套语义
+#   （见 cordis-plugin-include/lib/index.js 67-95 行）。往这个数组里静态插入一条
+#   `- insert: - id: mcp-dsh-ai-memory ...`，等于**给每个装上本插件的用户预置一个
+#   连不上 ai-memory.net 的 MCP 条目**——插件还没登录，DSH 启动就多一条超时连接。
+#
+# 所以真正的 MCP 条目由登录器在**拿到密钥之后**写入用户 profile：
+#     ~/.dsh/profiles/<profile>/cordis.patch.yml
+# 也就是「宁可不写，也别写坏」——手册 B3 的原话。
+#
+# 保留本文件（哪怕为空）是为了让 `dsh plugin add` 认这个包是 bundle：
+# 识别依据就是包里存在 cordis.patch.yml。
+[]
