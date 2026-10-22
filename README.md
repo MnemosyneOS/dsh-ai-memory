@@ -10,7 +10,7 @@ One command, one click in the browser, and your DSH sessions remember across res
 ## Install (30 seconds)
 
 ```bash
-dsh plugin add github:MnemosyneOS/mnemosyne-dsh
+dsh plugin add github:MnemosyneOS/dsh-ai-memory
 dsh-ai-memory-login
 ```
 

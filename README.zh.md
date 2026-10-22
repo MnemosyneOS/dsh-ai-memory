@@ -10,7 +10,7 @@
 ## 安装（30 秒）
 
 ```bash
-dsh plugin add github:MnemosyneOS/mnemosyne-dsh
+dsh plugin add github:MnemosyneOS/dsh-ai-memory
 dsh-ai-memory-login
 ```
 
